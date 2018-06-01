@@ -1,20 +1,17 @@
+# TM1638-Ultibo
+
 TM1638
 ======
 
-Controlling TM1638 modules with Arduino
+Controlling TM1638 modules with Ultibo Raspberry Pi
 
-Connecting the TM1638 to Arduino:
+Connecting the TM1638 to Raspberry Pi:
 
 <pre>
-Arduino              TM1638 based board
-3.3V   ------------------ VCC
-GND    ------------------ GND
-PIN #7 ------------------ STB
-PIN #8 ------------------ DIO
-PIN #9 ------------------ CLK
+RPi               TM1638 based board
+3.3V    ------------------ VCC
+GND     ------------------ GND
+PIN #23 ------------------ STB
+PIN #17 ------------------ DIO
+PIN #22 ------------------ CLK
 </pre>
-
-Blog post: http://blog.3d-logic.com/2015/01/10/using-a-tm1638-based-board-with-arduino/
-
-Video: https://www.youtube.com/watch?v=b8O9RTXvbNQ
-# TM1638-Ultibo
